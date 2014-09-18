@@ -6,7 +6,7 @@ F# Workshop
 
 Learning a new programming language is not easy, on top of reading a lot you need to practice even more.
 
-This workshop is designed to teach you some of the basics of F# and Functional Programming by combining theory ([slides](https://github.com/jorgef/fsharpworkshop/raw/master/FSharpIntroWorkshop_Slides.pdf)) and practice ([exercises](https://github.com/jorgef/fsharpworkshop/raw/master/FSharpIntroWorkshop_Exercises.pdf)).
+This workshop is designed to teach you some of the basics of F# and Functional Programming by combining theory ([slides](https://github.com/jorgef/fsharpworkshop/raw/master/FSharpWorkshop_Slides.pdf)) and practice ([exercises](https://github.com/jorgef/fsharpworkshop/raw/master/FSharpWorkshop_Exercises.pdf)).
 
 ## Modules ##
 
