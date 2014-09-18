@@ -2,7 +2,7 @@
 
 open Types
 
-let tryPromoteToVip customer spendings =
+let tryPromoteToVip (customer, spendings) =
     if spendings > 100.0 then { customer with IsVip = true }
     else customer
 
