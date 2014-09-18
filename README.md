@@ -61,7 +61,7 @@ The course is split into 5 modules, each of them contains a presentation (theory
 
 ## Recommended Learning Material ##
 
-Choose the material given the sentence that fits you better. The first two ones are recommended for before taking the workshop.
+Choose the material by selecting the sentence that fits you best. It is recommended to review the first two before taking the workshop.
 
 #### I don’t understand why people are talking so much about functional programming ####
 
@@ -69,7 +69,7 @@ Watch this video: [Functional Programming: What? Why? When?](https://vimeo.com/9
 
 #### I haven’t written F# before or I don’t remember much ####
 
-Practise Online: [Try F#](http://www.tryfsharp.org)
+Practice Online: [Try F#](http://www.tryfsharp.org)
 
 #### I need an intro to F# for C# developers ####
 
