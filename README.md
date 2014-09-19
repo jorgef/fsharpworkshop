@@ -63,19 +63,19 @@ The course is split into 5 modules, each of them contains a presentation (theory
 
 Choose the material by selecting the sentence that fits you best. It is recommended to review the first two before taking the workshop.
 
-#### I don’t understand why people are talking so much about functional programming ####
+##### I don’t understand why people are talking so much about functional programming #####
 
 Watch this video: [Functional Programming: What? Why? When?](https://vimeo.com/97514630) by Robert C. Martin [@unclebobmartin](https://twitter.com/unclebobmartin)
 
-#### I haven’t written F# before or I don’t remember much ####
+##### I haven’t written F# before or I don’t remember much #####
 
 Practice Online: [Try F#](http://www.tryfsharp.org)
 
-#### I need an intro to F# for C# developers ####
+##### I need an intro to F# for C# developers #####
 
 Watch this video: [F# for the C# developer](http://youtu.be/H0pS5UnVa2E) by Mathias Brandewinder [@brandewinder](https://twitter.com/brandewinder)
 
-#### I want to play around with F# without writing much code ####
+##### I want to play around with F# without writing much code #####
 
 Practice using the Tutorial project in Visual Studio:
 
@@ -84,11 +84,11 @@ Practice using the Tutorial project in Visual Studio:
 - Open Tutorial.fsx
 - Highlight the code you want to execute and then right-click “Execute in Interactive” (Alt+Enter)
 
-#### I can't remember F#'s syntax ####
+##### I can't remember F#'s syntax #####
 
 Use this F# cheatsheet: [html](http://dungpa.github.io/fsharp-cheatsheet/) - [pdf](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) by Anh-Dung Phan [@dungpa](https://twitter.com/dungpa)
 
-#### I want to read a good book to learn Functional Programming and F# ####
+##### I want to read a good book to learn Functional Programming and F# #####
 
 Read this one: [Real-World Functional Programming](http://www.manning.com/petricek/) by Tomas Petricek [@tomaspetricek](https://twitter.com/tomaspetricek) 
 
