@@ -86,7 +86,7 @@ Practice using the Tutorial project in Visual Studio:
 
 #### I can't remember F#'s syntax ####
 
-Use this F# cheat sheet: [html](http://dungpa.github.io/fsharp-cheatsheet/) - [pdf](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) by Anh-Dung Phan [@dungpa](https://twitter.com/dungpa)
+Use this F# cheatsheet: [html](http://dungpa.github.io/fsharp-cheatsheet/) - [pdf](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) by Anh-Dung Phan [@dungpa](https://twitter.com/dungpa)
 
 #### I want to read a good book to learn Functional Programming and F# ####
 
