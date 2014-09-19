@@ -84,6 +84,15 @@ Practice using the Tutorial project in Visual Studio:
 - Open Tutorial.fsx
 - Highlight the code you want to execute and then right-click “Execute in Interactive” (Alt+Enter)
 
+#### I can't remember F#'s syntax ####
+
+Use this F# cheat sheet: [html](http://dungpa.github.io/fsharp-cheatsheet/) - [pdf](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) by Anh-Dung Phan [@dungpa](https://twitter.com/dungpa)
+
 #### I want to read a good book to learn Functional Programming and F# ####
 
 Read this one: [Real-World Functional Programming](http://www.manning.com/petricek/) by Tomas Petricek [@tomaspetricek](https://twitter.com/tomaspetricek) 
+
+## License ##
+Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+Copyright 2014 Jorge Fioranelli
