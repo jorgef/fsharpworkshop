@@ -29,7 +29,7 @@ let res2'' = 1 |> addOne |> addTwo
 
 let addOne' = sum 1
 let addTwo' = sum 2
-let res2''' = 1 |> addOne |> addTwo
+let res2''' = 1 |> addOne' |> addTwo'
 
-let addThree = addOne >> addTwo
+let addThree = addOne' >> addTwo'
 let res2'''' = addThree 1

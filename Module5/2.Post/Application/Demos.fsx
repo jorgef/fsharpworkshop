@@ -29,9 +29,9 @@ let res2'' = 1 |> addOne |> addTwo
 
 let addOne' = sum 1
 let addTwo' = sum 2
-let res2''' = 1 |> addOne |> addTwo
+let res2''' = 1 |> addOne' |> addTwo'
 
-let addThree = addOne >> addTwo
+let addThree = addOne' >> addTwo'
 let res2'''' = addThree 1
 
 
@@ -69,7 +69,7 @@ let divide' dividend divisor =
 let distanceInMts = 11580.0<m>
 let distanceInKms = 87.34<km>
 //let totalDistance = distanceInMts + distanceInKms // Error
-let totalDistance' = (distanceInMts / 1000.0<m> * 1.0<km>) + distanceInKms
+let totalDistance' = distanceInMts / 1000.0<m> * 1.0<km> + distanceInKms
 let speed = totalDistance' / 2.4<h>
 
 
