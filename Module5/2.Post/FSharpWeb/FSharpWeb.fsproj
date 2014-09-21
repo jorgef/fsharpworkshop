@@ -8,7 +8,7 @@
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5cab3730-1805-43e3-a047-8895c32db790</ProjectGuid>
-    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349C5851-65DF-11DA-9384-00065B846F21};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <RootNamespace>FSharpWeb</RootNamespace>
@@ -116,10 +116,10 @@
     <Content Include="Scripts\jquery-2.0.3.min.map" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />
-    <Content Include="App_Data\Data.json" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\respond.js" />
+    <Content Include="App_Data\Data.json" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.svg" />
@@ -132,6 +132,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Compile Include="Global.asax.fs">
@@ -139,7 +140,6 @@
     </Compile>
     <Content Include="packages.config" />
     <Content Include="readme.txt" />
-    <Content Include="Views\Customers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">
