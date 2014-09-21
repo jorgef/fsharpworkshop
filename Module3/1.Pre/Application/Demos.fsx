@@ -24,7 +24,7 @@ let res1 = addOne 1
 let res2 = addTwo res1
 
 let res1' = 1 |> addOne
-let res2' = res1 |> addTwo
+let res2' = res1' |> addTwo
 let res2'' = 1 |> addOne |> addTwo
 
 let addOne' = sum 1
@@ -60,7 +60,7 @@ type DivisionResult =
 | DivisionError of message: string
 
 let divide' dividend divisor =
-    match dividend with
+    match divisor with
     |0 -> DivisionError(message = "Divide by zero")
     |_ -> DivisionSuccess(quotient = dividend / divisor, 
                           remainder = dividend % divisor)

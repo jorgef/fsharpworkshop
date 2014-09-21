@@ -24,7 +24,7 @@ let res1 = addOne 1
 let res2 = addTwo res1
 
 let res1' = 1 |> addOne
-let res2' = res1 |> addTwo
+let res2' = res1' |> addTwo
 let res2'' = 1 |> addOne |> addTwo
 
 let addOne' = sum 1
