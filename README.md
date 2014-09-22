@@ -39,7 +39,6 @@ The course is split into 5 modules, each of them contains a presentation (theory
 ### Module 5 ###
 - Object Oriented Programming
 - Type providers
-- Web Applications
 
 
 ## Pre-requisites ##
@@ -47,7 +46,6 @@ The course is split into 5 modules, each of them contains a presentation (theory
 #### Minimum Requirements ####
 - Visual Studio 2013
 - Visual F# tools 3.1.2 or higher [link](http://www.microsoft.com/en-au/download/details.aspx?id=44011)
-- F# MVC5 Template [link](http://visualstudiogallery.msdn.microsoft.com/39ae8dec-d11a-4ac9-974e-be0fdadec71b)
 - XUnit Runner [link](http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099)
 - Visual F# Power Tools (optional)  [link](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff)
 
