@@ -7,10 +7,7 @@ let tryPromoteToVip (customer, spendings) =
     if spendings > 100.0 then { customer with IsVip = true }
     else customer
 
-let getSpendingsByMonth customer =
-    [for _ in [1..12] do
-        if customer.Id % 2 = 0 then yield 150.0
-        else yield 60.0]
+let getSpendingsByMonth customer = customer.Id |> Data.getSpendings
 
 let weightedMean values =
     let rec recursiveWeightedMean items accumulator =

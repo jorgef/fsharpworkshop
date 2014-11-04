@@ -1,23 +1,36 @@
 ﻿module Data
 
-open System
 open Types
+open FSharp.Data
 
-let customer1 = 
-    { Id = 1 
-      IsVip = false 
-      Credit = 0.0<USD>
-      PersonalDetails = Some { FirstName = "John"; 
-                               LastName = "Doe"; 
-                               DateOfBirth = DateTime(1970, 11, 23) }
-      Notifications = ReceiveNotifications(receiveDeals = true, 
-                                           receiveAlerts = true) }
+type json = JsonProvider<"Data.json">
 
-let customer2 = 
-    { Id = 2 
-      IsVip = false 
-      Credit = 10.0<USD>
-      PersonalDetails = None
-      Notifications = NoNotifications }
+let getSpendings id =
+    json.Load("Data.json")
+    |> Seq.filter (fun c -> c.Id = id)
+    |> Seq.collect (fun c -> c.Spendings 
+                             |> Seq.map (fun s -> float(s)))
+    |> List.ofSeq
 
+[<Literal>]
+let cs = "Data Source=.;Initial Catalog=FSharpIntro;Integrated Security=SSPI;"
 
+type SelectCustomers = 
+    SqlCommandProvider<"SELECT Id, IsVip, Credit FROM dbo.Customers", cs>
+
+let getCustomers () = 
+    let cmd = new SelectCustomers ()
+    cmd.Execute ()
+    |> Seq.map (fun c -> 
+        { Id = c.Id
+          IsVip = c.IsVip
+          Credit = c.Credit * 1.0<USD>
+          PersonalDetails = None
+          Notifications = NoNotifications })
+
+type UpdateCustomer = 
+    SqlCommandProvider<"UPDATE dbo.Customers SET IsVip = @IsVip, Credit = @Credit WHERE Id = @Id", cs>
+
+let updateCustomer customer =
+    let cmd = new UpdateCustomer ()
+    cmd.Execute(customer.IsVip, (customer.Credit / 1.0<USD>), customer.Id)
