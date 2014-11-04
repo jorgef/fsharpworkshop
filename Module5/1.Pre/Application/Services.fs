@@ -1,4 +1,0 @@
-﻿namespace Services
-
-open Types
-
