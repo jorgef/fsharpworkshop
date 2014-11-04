@@ -33,9 +33,6 @@ The course is split into 5 modules, each of them contains a presentation (theory
 ### Module 4 ###
 - Functional lists
 - Recursion
-- List module
-
-### Module 5 ###
 - Object Oriented Programming
 - Type providers
 
@@ -45,6 +42,7 @@ The course is split into 5 modules, each of them contains a presentation (theory
 #### Minimum Requirements ####
 - Visual Studio 2013
 - Visual F# tools 3.1.2 or higher [link](http://www.microsoft.com/en-au/download/details.aspx?id=44011)
+- Sql Server 2005 or higher
 - XUnit Runner [link](http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099)
 - Visual F# Power Tools (optional)  [link](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff)
 
@@ -52,8 +50,8 @@ The course is split into 5 modules, each of them contains a presentation (theory
 #### Nuget Packages ####
 - XUnit [link](https://www.nuget.org/packages/xunit/)
 - Unquote [link](https://www.nuget.org/packages/Unquote/)
-- SqlProvider (TypeProvider) [alpha] [link](http://www.nuget.org/packages/SQLProvider/0.0.9-alpha)
-- F# Data [link](http://www.nuget.org/packages/FSharp.Data/)
+- F# Data (Id: FSharp.Data) [link](http://www.nuget.org/packages/FSharp.Data/)
+- FSharp.Data.SqlClient [link](http://www.nuget.org/packages/FSharp.Data.SqlClient/)
 
 
 ## Recommended Learning Material ##
