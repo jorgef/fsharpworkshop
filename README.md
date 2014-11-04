@@ -10,7 +10,7 @@ This workshop is designed to teach you some of the basics of F# and Functional P
 
 ## Modules ##
 
-The course is split into 5 modules, each of them contains a presentation (theory) and one exercise (practice).
+The course is split into 4 modules, each of them contains a presentation (theory) and one exercise (practice).
 
 ### Module 1 ###
 - Bindings
