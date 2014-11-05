@@ -3,13 +3,13 @@
 open Types
 open FSharp.Data
 
-type json = JsonProvider<"Data.json">
+type Json = JsonProvider<"Data.json">
 
 let getSpendings id =
-    json.Load "Data.json"
+    Json.Load "Data.json"
     |> Seq.filter (fun c -> c.Id = id)
     |> Seq.collect (fun c -> c.Spendings 
-                             |> Seq.map (fun s -> float s))
+                             |> Seq.map float)
     |> List.ofSeq
 
 [<Literal>]
