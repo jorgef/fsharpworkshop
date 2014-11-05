@@ -12,8 +12,8 @@ let getSpendingsByMonth customer = customer.Id |> Data.getSpendings
 let weightedMean values =
     let rec recursiveWeightedMean items accumulator =
         match items with
-        |[] -> accumulator / (float (List.length values))
-        |(w,v)::vs -> recursiveWeightedMean vs (accumulator + (w * v))
+        | [] -> accumulator / (float (List.length values))
+        | (w,v)::vs -> recursiveWeightedMean vs (accumulator + (w * v))
     recursiveWeightedMean values 0.0
 
 let getSpendings customer =
