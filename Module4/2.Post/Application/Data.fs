@@ -33,4 +33,4 @@ type UpdateCustomer =
 
 let updateCustomer customer =
     let cmd = new UpdateCustomer ()
-    cmd.Execute(customer.IsVip, (customer.Credit / 1.0<USD>), customer.Id)
+    cmd.Execute (customer.IsVip, (customer.Credit / 1.0<USD>), customer.Id)
