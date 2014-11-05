@@ -24,7 +24,7 @@ let ``4-1 Get spendings by month for customer 1``() =
 [<Fact>]
 let ``4-2 Get spendings by month for customer 2``() =
     let spendings = getSpendingsByMonth { customer with Id = 2 }
-    test <@ spendings = List.init 12 (fun x -> 150.0)  @>
+    test <@ spendings = List.init 12 (fun x -> 150.6)  @>
 
 [<Fact>]
 let ``4-3 Weighted mean``() =
