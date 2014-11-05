@@ -86,3 +86,30 @@ let rec filterEven ls =
 let evenNumbers = numbers |> filterEven
 
 let evenNumbers' = numbers |> List.filter (fun x -> x % 2 = 0)
+type MyClass(myField: int) =
+    member this.MyProperty = myField
+    member this.MyMethod methodParam = myField + methodParam
+
+let myInstance = MyClass 1
+myInstance.MyProperty
+myInstance.MyMethod 2
+
+type IMyInterface =
+    abstract member MyMethod: int -> int
+
+let myInstance' = 
+    { new IMyInterface with 
+       member this.MyMethod methodParam =
+              methodParam + 1 }
+
+myInstance'.MyMethod 2
+
+#r @"..\..\2.Post\packages\FSharp.Data.2.0.15\lib\net40\FSharp.Data.dll"
+open FSharp.Data
+
+type User = CsvProvider<"Demo.csv">
+let users = User.Load "Demo.csv"
+
+users.Rows
+|> Seq.iter (fun r -> printfn "%s: $%g" r.Name r.Credit)
+

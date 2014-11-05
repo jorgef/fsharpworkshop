@@ -49,7 +49,7 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <None Include="Demos.fsx" />
+    <None Include="Demo.fsx" />
     <Compile Include="Types.fs" />
     <Compile Include="Data.fs" />
     <Compile Include="Functions.fs" />
@@ -63,6 +63,7 @@
     </None>
     <None Include="Data.sql" />
     <Compile Include="Program.fs" />
+    <None Include="Demo.csv" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Data">

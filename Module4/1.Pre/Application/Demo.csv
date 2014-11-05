@@ -1,0 +1,5 @@
+﻿Id,Name,IsVip,Credit
+1,Customer1,false,0.0
+2,Customer2,false,10.0
+3,Customer3,false,30.0
+4,Customer4,true,50.0

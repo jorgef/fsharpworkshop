@@ -42,7 +42,7 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Demos.fsx" />
+    <None Include="Demo.fsx" />
     <Compile Include="Types.fs" />
     <Compile Include="Functions.fs" />
   </ItemGroup>
