@@ -40,7 +40,7 @@ The course is split into 4 modules, each of them contains a presentation (theory
 ## Pre-requisites ##
 
 #### Minimum Requirements ####
-- Visual Studio 2013
+- Visual Studio 2013 Professional or higher
 - Visual F# tools 3.1.2 or higher [link](http://www.microsoft.com/en-au/download/details.aspx?id=44011)
 - Sql Server 2005 or higher
 - XUnit Runner [link](http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099)
