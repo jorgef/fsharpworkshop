@@ -108,8 +108,8 @@ myInstance'.MyMethod 2
 #r @"..\packages\FSharp.Data.2.0.15\lib\net40\FSharp.Data.dll"
 open FSharp.Data
 
-type User = CsvProvider<"Demo.csv">
-let users = User.Load "Demo.csv"
+type Customer = CsvProvider<"Demo.csv">
+let customers = Customer.Load "Demo.csv"
 
-users.Rows
+customers.Rows
 |> Seq.iter (fun r -> printfn "%s: $%g" r.Name r.Credit)
