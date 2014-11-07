@@ -55,7 +55,6 @@
     <Compile Include="Functions.fs" />
     <Compile Include="Services.fs" />
     <Compile Include="Program.fs" />
-    <None Include="Data.sql" />
     <None Include="Data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
