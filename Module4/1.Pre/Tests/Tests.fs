@@ -5,6 +5,7 @@ open Xunit
 open Swensen.Unquote
 open Types
 open Functions
+open Services
 
 let customer = 
         { Id = 1 
