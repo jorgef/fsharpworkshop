@@ -54,7 +54,6 @@
     <Compile Include="Data.fs" />
     <Compile Include="Functions.fs" />
     <Compile Include="Services.fs" />
-    <Content Include="packages.config" />
     <Content Include="app.config" />
     <None Include="Data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -63,10 +62,11 @@
     <None Include="Data.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Data">
-      <HintPath>..\packages\FSharp.Data.2.0.15\lib\net40\FSharp.Data.dll</HintPath>
+      <HintPath>..\packages\FSharp.Data.2.1.0\lib\net40\FSharp.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="mscorlib" />
