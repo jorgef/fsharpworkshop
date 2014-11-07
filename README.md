@@ -42,7 +42,6 @@ The course is split into 4 modules, each of them contains a presentation (theory
 #### Minimum Requirements ####
 - Visual Studio 2013 Professional or higher
 - Visual F# tools 3.1.2 or higher [link](http://www.microsoft.com/en-au/download/details.aspx?id=44011)
-- Sql Server 2005 or higher
 - XUnit Runner [link](http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099)
 - Visual F# Power Tools (optional)  [link](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff)
 
@@ -50,8 +49,7 @@ The course is split into 4 modules, each of them contains a presentation (theory
 #### Nuget Packages ####
 - XUnit [link](https://www.nuget.org/packages/xunit/)
 - Unquote [link](https://www.nuget.org/packages/Unquote/)
-- F# Data (Id: FSharp.Data) [link](http://www.nuget.org/packages/FSharp.Data/)
-- FSharp.Data.SqlClient [link](http://www.nuget.org/packages/FSharp.Data.SqlClient/)
+- F# Data [link](http://www.nuget.org/packages/FSharp.Data/)
 
 
 ## Recommended Learning Material ##

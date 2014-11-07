@@ -12,25 +12,14 @@ let getSpendings id =
                              |> Seq.map float)
     |> List.ofSeq
 
-[<Literal>]
-let cs = "Data Source=.;Initial Catalog=FSharpIntro;Integrated Security=SSPI;"
-
-type SelectCustomers = 
-    SqlCommandProvider<"SELECT Id, IsVip, Credit FROM dbo.Customers", cs>
+type Csv = CsvProvider<"Data.csv">
 
 let getCustomers () = 
-    let cmd = new SelectCustomers ()
-    cmd.Execute ()
+    let file = Csv.Load "Data.csv"
+    file.Rows
     |> Seq.map (fun c -> 
         { Id = c.Id
           IsVip = c.IsVip
-          Credit = c.Credit * 1.0<USD>
+          Credit = float c.Credit * 1.0<USD>
           PersonalDetails = None
           Notifications = NoNotifications })
-
-type UpdateCustomer = 
-    SqlCommandProvider<"UPDATE dbo.Customers SET IsVip = @IsVip, Credit = @Credit WHERE Id = @Id", cs>
-
-let updateCustomer customer =
-    let cmd = new UpdateCustomer ()
-    cmd.Execute (customer.IsVip, (customer.Credit / 1.0<USD>), customer.Id)

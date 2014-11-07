@@ -8,5 +8,3 @@ type CustomerService() =
         Data.getCustomers ()
         |> Seq.find (fun c -> c.Id = id)
         |> Functions.upgradeCustomer
-        |> Data.updateCustomer
-        |> ignore

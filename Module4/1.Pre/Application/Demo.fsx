@@ -85,7 +85,16 @@ let rec filterEven ls =
 
 let evenNumbers = numbers |> filterEven
 
-let evenNumbers' = numbers |> List.filter (fun x -> x % 2 = 0)
+let rec filterEven' acc ls =
+  match ls with
+  |[] -> List.rev acc
+  |head :: tail when head % 2 = 0 -> filterEven' (head :: acc) tail 
+  |_ :: tail -> filterEven' acc tail 
+
+let evenNumbers' = numbers |> filterEven' []
+
+let evenNumbers'' = numbers |> List.filter (fun x -> x % 2 = 0)
+
 type MyClass(myField: int) =
     member this.MyProperty = myField
     member this.MyMethod methodParam = myField + methodParam
@@ -104,12 +113,11 @@ let myInstance' =
 
 myInstance'.MyMethod 2
 
-#r @"..\..\2.Post\packages\FSharp.Data.2.0.15\lib\net40\FSharp.Data.dll"
+#r @"..\packages\FSharp.Data.2.0.15\lib\net40\FSharp.Data.dll"
 open FSharp.Data
 
-type Customer = CsvProvider<"Demo.csv">
-let customers = Customer.Load "Demo.csv"
+type Customer = CsvProvider<"Data.csv">
+let customers = Customer.Load "Data.csv"
 
 customers.Rows
 |> Seq.iter (fun r -> printfn "%s: $%g" r.Name r.Credit)
-

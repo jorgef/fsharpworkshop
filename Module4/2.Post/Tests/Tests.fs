@@ -5,6 +5,7 @@ open Xunit
 open Swensen.Unquote
 open Types
 open Functions
+open Services
 
 let customer = 
         { Id = 1 
@@ -31,3 +32,16 @@ let ``4-2 Weighted mean``() =
 let ``4-3 Get spendings using weighted mean``() =
     let spendings = getSpendings customer
     test <@ spendings = (customer, 53.0)  @>
+
+[<Fact>]
+let ``4-4 Get customers``() =
+    let service = CustomerService ()
+    let customers = service.GetCustomers ()
+    test <@ Seq.length customers = 4 @>
+
+[<Fact>]
+let ``4-5 Update customer``() =
+    let service = CustomerService ()
+    let upgradedCustomer = service.UpgradeCustomer 2
+    test <@ upgradedCustomer.IsVip @>
+    test <@ upgradedCustomer.Credit = 110.0<USD> @>
