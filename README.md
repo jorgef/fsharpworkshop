@@ -51,41 +51,17 @@ The course is split into 4 modules, each of them contains a presentation (theory
 - Unquote [link](https://www.nuget.org/packages/Unquote/)
 - F# Data [link](http://www.nuget.org/packages/FSharp.Data/)
 
-
 ## Recommended Learning Material ##
 
-Choose the material by selecting the sentence that fits you best. It is recommended to review the first two before taking the workshop.
+Video: [Intro to F#](http://youtu.be/n6giNJ4Wm6U) by Jorge Fioranelli
 
-##### I don’t understand why people are talking so much about functional programming #####
-
-Watch this video: [Functional Programming: What? Why? When?](https://vimeo.com/97514630) by Robert C. Martin [@unclebobmartin](https://twitter.com/unclebobmartin)
-
-##### I haven’t written F# before or I don’t remember much #####
+Video: [Functional Programming: What? Why? When?](https://vimeo.com/97514630) by Robert C. Martin 
 
 Practice Online: [Try F#](http://www.tryfsharp.org)
 
-##### I need an intro to F# for C# developers #####
-
-Watch this video: [F# for the C# developer](http://youtu.be/H0pS5UnVa2E) by Mathias Brandewinder [@brandewinder](https://twitter.com/brandewinder)
-
-##### I want to play around with F# without writing much code #####
-
-Practice using the Tutorial project in Visual Studio:
-
-- Add New Project -> Other Languages -> Visual F# -> Tutorial
-- View -> Other Windows -> F# Interactive
-- Open Tutorial.fsx
-- Highlight the code you want to execute and then right-click “Execute in Interactive” (Alt+Enter)
-
-##### I can't remember F#'s syntax #####
-
-Use this F# cheatsheet: [html](http://dungpa.github.io/fsharp-cheatsheet/) - [pdf](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) by Anh-Dung Phan [@dungpa](https://twitter.com/dungpa)
-
-##### I want to read a good book to learn Functional Programming and F# #####
-
-Read this one: [Real-World Functional Programming](http://www.manning.com/petricek/) by Tomas Petricek [@tomaspetricek](https://twitter.com/tomaspetricek) 
+Book: [Real-World Functional Programming](http://www.manning.com/petricek/) by Tomas Petricek
 
 ## License ##
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-Copyright 2014 Jorge Fioranelli
+Copyright 2015 Jorge Fioranelli
