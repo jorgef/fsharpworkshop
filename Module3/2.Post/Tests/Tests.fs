@@ -18,33 +18,33 @@ let customer =
 
 [<Fact>]
 let ``3-1 Create customer``() =
-    test <@ customer.GetType() = typeof<Customer>  @>
+    test <@ customer.GetType() = typeof<Customer> @>
 
 [<Fact>]
 let ``3-2 Increase credit using USD``() =
     let upgradedCustomer = increaseCreditUsingVip customer
-    test <@ upgradedCustomer.Credit = 50.0<USD>  @>
+    test <@ upgradedCustomer.Credit = 50.0<USD> @>
 
 [<Fact>]
 let ``3-3 Adult customer``() =
-    test <@ customer |> isAdult  @>
+    test <@ customer |> isAdult @>
 
 [<Fact>]
 let ``3-4 Non-adult customer``() =
     let nonadult = { customer with PersonalDetails = Some { customer.PersonalDetails.Value with DateOfBirth = DateTime.Now.AddYears(-1) } }
-    test <@ not (nonadult |> isAdult)  @>
+    test <@ not (nonadult |> isAdult) @>
 
 [<Fact>]
 let ``3-5 Customer without personal details``() =
     let nonadult = { customer with PersonalDetails = None }
-    test <@ not (nonadult |> isAdult)  @>
+    test <@ not (nonadult |> isAdult) @>
 
 [<Fact>]
 let ``3-6 Get alert when nofications are enabled``() =
     let alert = customer |> getAlert
-    test <@ alert = Some "Alert for customer: 1"  @>
+    test <@ alert = Some "Alert for customer: 1" @>
 
 [<Fact>]
 let ``3-7 Do not get alert when nofications are disabled``() =
     let alert = { customer with Notifications = NoNotifications } |> getAlert
-    test <@ alert = None  @>
+    test <@ alert = None @>

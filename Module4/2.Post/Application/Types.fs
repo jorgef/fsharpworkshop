@@ -11,8 +11,8 @@ type PersonalDetails =
 [<Measure>] type USD
 
 type Notifications =
-| NoNotifications
-| ReceiveNotifications of receiveDeals: bool * receiveAlerts: bool
+    | NoNotifications
+    | ReceiveNotifications of receiveDeals: bool * receiveAlerts: bool
 
 type Customer = 
     { Id: int

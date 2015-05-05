@@ -8,12 +8,15 @@
 //
 //[<EntryPoint>]
 //let rec main args =
-//    let service = CustomerService ()
+//    let service = CustomerService()
 //    service.GetCustomers () 
 //    |> Seq.iter printCustomer
 //    printf "Id to upgrade: "
 //    let id = int (Console.ReadLine ())
+//    printfn ""
 //    let customer = service.UpgradeCustomer id
 //    customer |> printCustomer
+//    printfn ""
+//    printfn "Press enter to try again"
 //    Console.ReadLine () |> ignore
 //    main args
