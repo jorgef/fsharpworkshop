@@ -51,11 +51,21 @@ The course is split into 4 modules, each of them contains a presentation (theory
 - Unquote [link](https://www.nuget.org/packages/Unquote/)
 - F# Data [link](http://www.nuget.org/packages/FSharp.Data/)
 
+## Workshop Feedback ##
+
+> "Can't praise @jorgefioranelli enough for the amazing outstanding preparation & delivery of his @readify #fsharp workshop tonight" [@meligy](https://twitter.com/Meligy/status/514382840520138753)
+
+> "Seriously impressed at the quality and professionalism of the #readifyfsharpworkshop by @jorgefioranelli and @tobycmoore" [@robdmoore](https://twitter.com/robdmoore/status/532522727941218304)
+
+> "Check out @jorgefioranelli's #fsharp workshop, one of the best workshops I've attended! http://www.fsharpworkshop.com" [@fekberg](https://twitter.com/fekberg/status/563477575230431234)
+
+> "Fantastic F# workshop today by @jorgefioranelli and @liammclennan - really clear, interesting, and enjoyable!" [@harrietgl](https://twitter.com/harrietgl/status/600872399538532352)
+
 ## Recommended Learning Material ##
 
-Video: [Intro to F#](http://youtu.be/n6giNJ4Wm6U) by Jorge Fioranelli
-
 Video: [Functional Programming: What? Why? When?](https://vimeo.com/97514630) by Robert C. Martin 
+
+Video: [5 Reasons to Move from C# to F#](https://www.youtube.com/embed/-0BB3lU_qr4) by Jorge Fioranelli
 
 Practice Online: [Try F#](http://www.tryfsharp.org)
 
