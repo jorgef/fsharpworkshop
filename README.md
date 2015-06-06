@@ -59,6 +59,8 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 > "Check out @jorgefioranelli's #fsharp workshop, one of the best workshops I've attended! http://www.fsharpworkshop.com" [@fekberg](https://twitter.com/fekberg/status/563477575230431234)
 
+> "A truly excellent #F#Workshop yesterday by @jorgefioranelli . Thank you!" [marcote_torres](https://twitter.com/marcote_torres/status/598842148927201280)
+
 > "Fantastic F# workshop today by @jorgefioranelli and @liammclennan - really clear, interesting, and enjoyable!" [@harrietgl](https://twitter.com/harrietgl/status/600872399538532352)
 
 ## Recommended Learning Material ##
