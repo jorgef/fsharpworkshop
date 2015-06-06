@@ -53,15 +53,15 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ## Workshop Feedback ##
 
-> "Can't praise @jorgefioranelli enough for the amazing outstanding preparation & delivery of his @readify #fsharp workshop tonight" [@meligy](https://twitter.com/Meligy/status/514382840520138753)
+> "Can't praise @jorgefioranelli enough for the amazing outstanding preparation & delivery of his @readify #fsharp workshop tonight" [@meligy tweet](https://twitter.com/Meligy/status/514382840520138753)
 
-> "Seriously impressed at the quality and professionalism of the #readifyfsharpworkshop by @jorgefioranelli and @tobycmoore" [@robdmoore](https://twitter.com/robdmoore/status/532522727941218304)
+> "Seriously impressed at the quality and professionalism of the #readifyfsharpworkshop by @jorgefioranelli and @tobycmoore" [@robdmoore tweet](https://twitter.com/robdmoore/status/532522727941218304)
 
-> "Check out @jorgefioranelli's #fsharp workshop, one of the best workshops I've attended! http://www.fsharpworkshop.com" [@fekberg](https://twitter.com/fekberg/status/563477575230431234)
+> "Check out @jorgefioranelli's #fsharp workshop, one of the best workshops I've attended! http://www.fsharpworkshop.com" [@fekberg tweet](https://twitter.com/fekberg/status/563477575230431234)
 
-> "A truly excellent #F#Workshop yesterday by @jorgefioranelli . Thank you!" [marcote_torres](https://twitter.com/marcote_torres/status/598842148927201280)
+> "A truly excellent #F#Workshop yesterday by @jorgefioranelli . Thank you!" [@marcote_torres tweet](https://twitter.com/marcote_torres/status/598842148927201280)
 
-> "Fantastic F# workshop today by @jorgefioranelli and @liammclennan - really clear, interesting, and enjoyable!" [@harrietgl](https://twitter.com/harrietgl/status/600872399538532352)
+> "Fantastic F# workshop today by @jorgefioranelli and @liammclennan - really clear, interesting, and enjoyable!" [@harrietgl tweet](https://twitter.com/harrietgl/status/600872399538532352)
 
 ## Recommended Learning Material ##
 
