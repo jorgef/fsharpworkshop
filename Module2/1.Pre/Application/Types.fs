@@ -1,6 +1,6 @@
 ﻿module Types
 
-type Customer = 
-    { Id: int
-      IsVip: bool
-      Credit: float }
+type Customer = { 
+    Id: int
+    IsVip: bool
+    Credit: float }
