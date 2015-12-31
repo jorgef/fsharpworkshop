@@ -3,4 +3,4 @@
 type Customer = { 
     Id: int
     IsVip: bool
-    Credit: float }
+    Credit: decimal }

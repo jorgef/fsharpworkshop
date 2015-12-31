@@ -8,8 +8,7 @@ type Json = JsonProvider<"Data.json">
 let getSpendings id =
     Json.Load "Data.json"
     |> Seq.filter (fun c -> c.Id = id)
-    |> Seq.collect (fun c -> c.Spendings 
-                             |> Seq.map float)
+    |> Seq.collect (fun c -> c.Spendings)
     |> List.ofSeq
 
 type Csv = CsvProvider<"Data.csv">
@@ -20,6 +19,6 @@ let getCustomers () =
     |> Seq.map (fun c -> 
         { Id = c.Id
           IsVip = c.IsVip
-          Credit = float c.Credit * 1.0<USD>
+          Credit = c.Credit * 1M<USD>
           PersonalDetails = None
           Notifications = NoNotifications })

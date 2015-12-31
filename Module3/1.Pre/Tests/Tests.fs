@@ -6,15 +6,16 @@ open Swensen.Unquote
 open Types
 open Functions
 
-//let customer = 
-//        { Id = 1 
-//          IsVip = false 
-//          Credit = 0.0<USD>
-//          PersonalDetails = Some { FirstName = "John"; 
-//                                   LastName = "Doe"; 
-//                                   DateOfBirth = DateTime(1970, 11, 23) }
-//          Notifications = ReceiveNotifications(receiveDeals = true, 
-//                                               receiveAlerts = true) }
+//let customer1 = { 
+//    Id = 1 
+//    IsVip = false 
+//    Credit = 0M<USD>
+//    PersonalDetails = Some { 
+//        FirstName = "John"
+//        LastName = "Doe"
+//        DateOfBirth = DateTime(1970, 11, 23) }
+//    Notifications = ReceiveNotifications(receiveDeals = true, 
+//                                         receiveAlerts = true) }
 //
 //[<Fact>]
 //let ``3-1 Create customer``() =
@@ -23,7 +24,7 @@ open Functions
 //[<Fact>]
 //let ``3-2 Increase credit using USD``() =
 //    let upgradedCustomer = increaseCreditUsingVip customer
-//    test <@ upgradedCustomer.Credit = 50.0<USD> @>
+//    test <@ upgradedCustomer.Credit = 50M<USD> @>
 //
 //[<Fact>]
 //let ``3-3 Adult customer``() =
