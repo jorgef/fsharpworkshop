@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{41897aa7-e385-49ec-89ec-a1be815c8939}</ProjectGuid>
+    <ProjectGuid>{3ed68538-90db-4dcf-9ef6-8c96132c7eb0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Tests</RootNamespace>
     <AssemblyName>Tests</AssemblyName>
@@ -87,7 +87,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Application\Application.fsproj" />
+    <ProjectReference Include="..\Application\Application.fsproj">
+      <Name>Application (Module4\Application)</Name>
+      <Project>{9b807a0c-1b0d-4b4f-b6ad-4f0ecb46ef90}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
