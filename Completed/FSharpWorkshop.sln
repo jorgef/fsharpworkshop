@@ -9,24 +9,40 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{92E8DD
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module1", "Module1", "{0ECC2A4B-D33B-4B6B-AB75-9F2A11E20283}"
+	ProjectSection(SolutionItems) = preProject
+		Module1\runtests.bat = Module1\runtests.bat
+		Module1\RunTests.fsx = Module1\RunTests.fsx
+	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module1\Application\Application.fsproj", "{1ECBF45C-466A-4559-A6CB-39DC98276749}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Module1\Tests\Tests.fsproj", "{4D88340D-47E1-4327-9BE6-413CEEDC29DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module2", "Module2", "{88521784-CB87-49D5-B933-1C12A0086E37}"
+	ProjectSection(SolutionItems) = preProject
+		Module2\runtests.bat = Module2\runtests.bat
+		Module2\RunTests.fsx = Module2\RunTests.fsx
+	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module2\Application\Application.fsproj", "{73F16791-F9C2-405E-8387-F1258F94CF5A}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Module2\Tests\Tests.fsproj", "{F0CC6D06-C57F-4730-80AF-46BC0686BDB2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module3", "Module3", "{99D8B7F5-E8D2-4549-8298-62B02A2759D4}"
+	ProjectSection(SolutionItems) = preProject
+		Module3\runtests.bat = Module3\runtests.bat
+		Module3\RunTests.fsx = Module3\RunTests.fsx
+	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module3\Application\Application.fsproj", "{2DEE6BF7-CEBE-41F6-8C47-DFE74DAB03BE}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Module3\Tests\Tests.fsproj", "{0C982921-CCF3-43F0-B792-FD2B0F98B496}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module4", "Module4", "{DBB2E132-7D57-42AB-8A8B-0BA60FBDE1A4}"
+	ProjectSection(SolutionItems) = preProject
+		Module4\runtests.bat = Module4\runtests.bat
+		Module4\RunTests.fsx = Module4\RunTests.fsx
+	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module4\Application\Application.fsproj", "{9B807A0C-1B0D-4B4F-B6AD-4F0ECB46EF90}"
 EndProject
