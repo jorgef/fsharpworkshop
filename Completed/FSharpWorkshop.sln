@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{92E8DD0A-8642-4CFF-B5FC-79F2DD74783C}"
+	ProjectSection(SolutionItems) = preProject
+		..\paket.dependencies = ..\paket.dependencies
+	EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module1", "Module1", "{0ECC2A4B-D33B-4B6B-AB75-9F2A11E20283}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module1\Application\Application.fsproj", "{1ECBF45C-466A-4559-A6CB-39DC98276749}"
