@@ -47,6 +47,7 @@
     <Compile Include="Types.fs" />
     <Compile Include="Functions.fs" />
     <Compile Include="Data.fs" />
+    <None Include="Try.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
