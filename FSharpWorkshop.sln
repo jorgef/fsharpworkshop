@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module1", "Module1", "{0ECC
 	ProjectSection(SolutionItems) = preProject
 		Module1\runtests.bat = Module1\runtests.bat
 		Module1\RunTests.fsx = Module1\RunTests.fsx
+		Module1\runtests.sh = Module1\runtests.sh
 	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module1\Application\Application.fsproj", "{1ECBF45C-466A-4559-A6CB-39DC98276749}"
@@ -22,6 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module2", "Module2", "{8852
 	ProjectSection(SolutionItems) = preProject
 		Module2\runtests.bat = Module2\runtests.bat
 		Module2\RunTests.fsx = Module2\RunTests.fsx
+		Module2\runtests.sh = Module2\runtests.sh
 	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module2\Application\Application.fsproj", "{73F16791-F9C2-405E-8387-F1258F94CF5A}"
@@ -32,6 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module3", "Module3", "{99D8
 	ProjectSection(SolutionItems) = preProject
 		Module3\runtests.bat = Module3\runtests.bat
 		Module3\RunTests.fsx = Module3\RunTests.fsx
+		Module3\runtests.sh = Module3\runtests.sh
 	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module3\Application\Application.fsproj", "{2DEE6BF7-CEBE-41F6-8C47-DFE74DAB03BE}"
@@ -42,8 +45,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module4", "Module4", "{DBB2
 	ProjectSection(SolutionItems) = preProject
 		Module4\runapp.bat = Module4\runapp.bat
 		Module4\RunApp.fsx = Module4\RunApp.fsx
+		Module4\runapp.sh = Module4\runapp.sh
 		Module4\runtests.bat = Module4\runtests.bat
 		Module4\RunTests.fsx = Module4\RunTests.fsx
+		Module4\runtests.sh = Module4\runtests.sh
 	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module4\Application\Application.fsproj", "{9B807A0C-1B0D-4B4F-B6AD-4F0ECB46EF90}"
