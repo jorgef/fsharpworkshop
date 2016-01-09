@@ -64,6 +64,7 @@
     </None>
     <Content Include="app.config" />
     <Content Include="paket.references" />
+    <None Include="Try.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
