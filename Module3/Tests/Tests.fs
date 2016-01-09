@@ -6,7 +6,7 @@ open Swensen.Unquote
 open Types
 open Functions
 
-//let customer1 = { 
+//let customer = { 
 //    Id = 1 
 //    IsVip = false 
 //    Credit = 0M<USD>
