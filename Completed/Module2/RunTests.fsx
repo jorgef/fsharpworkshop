@@ -13,7 +13,7 @@ Target "BuildTests" (fun _ ->
 
 Target "RunTests" (fun _ ->
     testDlls
-        |> xUnit (fun p -> { p with ToolPath = @"..\..\packages\xunit.runner.console\tools\xunit.console.exe" })
+        |> xUnit (fun p -> { p with ToolPath = @"../../packages/xunit.runner.console/tools/xunit.console.exe" })
 )
 
 "BuildTests"
