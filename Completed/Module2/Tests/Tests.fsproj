@@ -67,8 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.fsproj">
+      <Project>{73F16791-F9C2-405E-8387-F1258F94CF5A}</Project>
       <Name>Application</Name>
-      <Project>{73f16791-f9c2-405e-8387-f1258f94cf5a}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
