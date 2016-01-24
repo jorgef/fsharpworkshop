@@ -41,12 +41,12 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 #### Windows
 - Visual Studio 2015 Community or
-- Xamarin Studio or
+- Xamarin Studio 6 or
 - Atom + F# Compiler + Ionide package or
 - Visual Studio Code + F# Compiler + Ionide package
 
 #### Mac
-- Xamarin Studio or
+- Xamarin Studio 6 + Mono or
 - Atom + Mono + Ionide package or
 - Visual Studio Code + Mono + Ionide package
 

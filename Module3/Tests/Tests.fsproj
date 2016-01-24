@@ -67,12 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.fsproj">
-      <Name>Application (Module3\Application)</Name>
+      <Name>Application</Name>
       <Project>{2dee6bf7-cebe-41f6-8c47-dfe74dab03be}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
