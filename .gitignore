@@ -212,3 +212,4 @@ docs/content/release-notes.md
 docs/tools/FSharp.Formatting.svclog
 testsOutput/
 appOutput/
+.vs/
