@@ -5,4 +5,5 @@ open System
 type Customer = { 
     Id: int
     IsVip: bool
-    Credit: decimal }
+    Credit: decimal 
+}

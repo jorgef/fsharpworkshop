@@ -1,6 +1,7 @@
 ﻿#load "Types.fs"
 #load "Functions.fs"
 
+open System
 open Types
 open Functions
 
@@ -11,15 +12,18 @@ let customer1 = {
     PersonalDetails = Some { 
         FirstName = "John"
         LastName = "Doe"
-        DateOfBirth = DateTime(1970, 11, 23) }
-    Notifications = ReceiveNotifications(receiveDeals = true, receiveAlerts = true) }
+        DateOfBirth = DateTime(1970, 11, 23) 
+    }
+    Notifications = ReceiveNotifications(receiveDeals = true, receiveAlerts = true) 
+}
 
 let customer2 = {
     Id = 2 
     IsVip = false 
     Credit = 10M<USD>
     PersonalDetails = None
-    Notifications = NoNotifications }
+    Notifications = NoNotifications 
+}
 
 let vipCustomer1 = tryPromoteToVip (customer1, 101M) 
 let nonVipCustomer2 = tryPromoteToVip (customer2, 99M) 

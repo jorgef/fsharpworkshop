@@ -5,7 +5,8 @@ open System
 type PersonalDetails = {
     FirstName: string
     LastName: string
-    DateOfBirth: DateTime }
+    DateOfBirth: DateTime 
+}
 
 [<Measure>] type AUD
 [<Measure>] type USD
@@ -19,4 +20,5 @@ type Customer = {
     IsVip: bool
     Credit: decimal<USD>
     PersonalDetails: PersonalDetails option
-    Notifications: Notifications }
+    Notifications: Notifications 
+}

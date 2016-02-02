@@ -17,8 +17,10 @@ let getCustomers () =
     let file = Csv.Load "Data.csv"
     file.Rows
     |> Seq.map (fun c -> 
-        { Id = c.Id
-          IsVip = c.IsVip
-          Credit = c.Credit * 1M<USD>
-          PersonalDetails = None
-          Notifications = NoNotifications })
+        { 
+            Id = c.Id
+            IsVip = c.IsVip
+            Credit = c.Credit * 1M<USD>
+            PersonalDetails = None
+            Notifications = NoNotifications 
+        })

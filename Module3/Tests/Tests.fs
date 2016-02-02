@@ -15,7 +15,8 @@ open Functions
 //        LastName = "Doe"
 //        DateOfBirth = DateTime(1970, 11, 23) }
 //    Notifications = ReceiveNotifications(receiveDeals = true, 
-//                                         receiveAlerts = true) }
+//                                         receiveAlerts = true) 
+//}
 //
 //[<Fact>]
 //let ``3-1 Create customer``() =
