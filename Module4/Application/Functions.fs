@@ -8,7 +8,6 @@ let tryPromoteToVip (customer, spendings) =
     else customer
 
 let getSpendings customer =
-    // let weights = [0.8M; 0.9M; 1M; 0.7M; 0.9M; 1M; 0.8M; 1M; 1M; 1M; 0.8M; 0.7M]
     if customer.Id % 2 = 0 then (customer, 120M)
     else (customer, 80M)
 

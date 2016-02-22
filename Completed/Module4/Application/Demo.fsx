@@ -77,23 +77,7 @@ let speed = totalDistance' / 2.4<h>
 
 let numbers = [1..100]
 
-let rec filterEven ls =
-    match ls with
-    |[] -> []
-    |x::xs when x % 2 = 0 -> x :: filterEven xs
-    |_::xs  -> filterEven xs
-
-let evenNumbers = numbers |> filterEven
-
-let rec filterEven' acc ls =
-  match ls with
-  |[] -> List.rev acc
-  |head :: tail when head % 2 = 0 -> filterEven' (head :: acc) tail 
-  |_ :: tail -> filterEven' acc tail 
-
-let evenNumbers' = numbers |> filterEven' []
-
-let evenNumbers'' = numbers |> List.filter (fun x -> x % 2 = 0)
+let evenNumbers = numbers |> List.filter (fun x -> x % 2 = 0)
 
 type MyClass(myField: int) =
     member this.MyProperty = myField

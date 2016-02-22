@@ -24,24 +24,18 @@ let customer = {
 //    test <@ spendings = List.init 12 (fun x -> 60M) @>
 //
 //[<Fact>]
-//let ``4-2 Weighted mean``() =
-//    let items = [(60M, 1M); (70M, 0.5M)]
-//    let result = weightedMean items
-//    test <@ result = 47.5M @>
-//
-//[<Fact>]
-//let ``4-3 Get spendings using weighted mean``() =
+//let ``4-2 Get spendings using getSpendingsByMonth``() =
 //    let spendings = getSpendings customer
-//    test <@ spendings = (customer, 53M) @>
+//    test <@ spendings = (customer, 60M) @>
 //
 //[<Fact>]
-//let ``4-4 Get customers``() =
+//let ``4-3 Get customers``() =
 //    let service = CustomerService()
 //    let customers = service.GetCustomers ()
 //    test <@ Seq.length customers = 4 @>
 //
 //[<Fact>]
-//let ``4-5 Update customer``() =
+//let ``4-4 Update customer``() =
 //    let service = CustomerService()
 //    let upgradedCustomer = service.UpgradeCustomer 2
 //    test <@ upgradedCustomer.IsVip @>

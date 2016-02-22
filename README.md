@@ -32,7 +32,6 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ### Module 4
 - Functional lists
-- Recursion
 - Object-oriented programming
 - Type providers
 

@@ -9,19 +9,10 @@ let tryPromoteToVip (customer, spendings) =
 
 let getSpendingsByMonth customer = customer.Id |> Data.getSpendings
 
-let weightedMean values =
-    let rec recursiveWeightedMean items accumulator =
-        match items with
-        | [] -> accumulator / (decimal (List.length values))
-        | (w,v)::vs -> recursiveWeightedMean vs (accumulator + w * v)
-    recursiveWeightedMean values 0M
-
 let getSpendings customer =
-    let weights = [0.8M; 0.9M; 1M; 0.7M; 0.9M; 1M; 0.8M; 1M; 1M; 1M; 0.8M; 0.7M]
     let spending = customer
                     |> getSpendingsByMonth
-                    |> List.zip weights
-                    |> weightedMean
+                    |> List.average
     (customer, spending)
 
 let increaseCredit condition customer =
