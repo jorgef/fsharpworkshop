@@ -113,7 +113,7 @@ let myInstance' =
 
 myInstance'.MyMethod 2
 
-#r @"..\packages\FSharp.Data.2.1.0\lib\net40\FSharp.Data.dll"
+#r @"..\..\..\packages\FSharp.Data\lib\net40\FSharp.Data.dll"
 open FSharp.Data
 
 type Customer = CsvProvider<"Data.csv">
