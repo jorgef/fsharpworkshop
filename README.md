@@ -65,6 +65,8 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 > "Fantastic F# workshop today by @jorgefioranelli and @liammclennan - really clear, interesting, and enjoyable!" [@harrietgl tweet](https://twitter.com/harrietgl/status/600872399538532352)
 
+> "Thanks @jorgefioranelli for awesome #fsharp workshop!" [@grishace tweet](https://twitter.com/grishace/status/696073536595718144)
+
 ## Recommended Learning Material ##
 
 Video: [Functional Programming: What? Why? When?](https://vimeo.com/97514630) by Robert C. Martin 
