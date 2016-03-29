@@ -55,17 +55,24 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ## Workshop Feedback ##
 
-> "Can't praise @jorgefioranelli enough for the amazing outstanding preparation & delivery of his @readify #fsharp workshop tonight" [@meligy tweet](https://twitter.com/Meligy/status/514382840520138753)
+> "DC F# Meetup - @jorgefioranelli 's F# Workshop - excellent intro to F#.  Thanks!" [@cnromaine tweet](https://twitter.com/cnromaine/status/709380386124656641)
 
-> "Seriously impressed at the quality and professionalism of the #readifyfsharpworkshop by @jorgefioranelli and @tobycmoore" [@robdmoore tweet](https://twitter.com/robdmoore/status/532522727941218304)
+> "Thanks to @jorgefioranelli for teaching and @CoStarGroup for hosting a great F# workshop this weekend! Learning a bunch." [@sjkilleen tweet](https://twitter.com/sjkilleen/status/708716443660111873)
 
-> "Check out @jorgefioranelli's #fsharp workshop, one of the best workshops I've attended! http://www.fsharpworkshop.com" [@fekberg tweet](https://twitter.com/fekberg/status/563477575230431234)
+> "@DCFSharp with @jorgefioranelli running an awesome #fsharp workshop!" [@trikace tweet](https://twitter.com/TRikace/status/708679222441725953)
 
-> "A truly excellent #F#Workshop yesterday by @jorgefioranelli . Thank you!" [@marcote_torres tweet](https://twitter.com/marcote_torres/status/598842148927201280)
+> "Thanks @jorgefioranelli for awesome #fsharp workshop!" [@grishace tweet](https://twitter.com/grishace/status/696073536595718144)
 
 > "Fantastic F# workshop today by @jorgefioranelli and @liammclennan - really clear, interesting, and enjoyable!" [@harrietgl tweet](https://twitter.com/harrietgl/status/600872399538532352)
 
-> "Thanks @jorgefioranelli for awesome #fsharp workshop!" [@grishace tweet](https://twitter.com/grishace/status/696073536595718144)
+> "A truly excellent #F#Workshop yesterday by @jorgefioranelli . Thank you!" [@marcote_torres tweet](https://twitter.com/marcote_torres/status/598842148927201280)
+
+> "Check out @jorgefioranelli's #fsharp workshop, one of the best workshops I've attended! http://www.fsharpworkshop.com" [@fekberg tweet](https://twitter.com/fekberg/status/563477575230431234)
+
+> "Seriously impressed at the quality and professionalism of the #readifyfsharpworkshop by @jorgefioranelli and @tobycmoore" [@robdmoore tweet](https://twitter.com/robdmoore/status/532522727941218304)
+
+> "Can't praise @jorgefioranelli enough for the amazing outstanding preparation & delivery of his @readify #fsharp workshop tonight" [@meligy tweet](https://twitter.com/Meligy/status/514382840520138753)
+
 
 ## Recommended Learning Material ##
 
