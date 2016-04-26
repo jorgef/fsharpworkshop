@@ -55,11 +55,11 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ## Workshop Feedback ##
 
+> "@DCFSharp with @jorgefioranelli running an awesome #fsharp workshop!" [@trikace tweet](https://twitter.com/TRikace/status/708679222441725953)
+
 > "DC F# Meetup - @jorgefioranelli 's F# Workshop - excellent intro to F#.  Thanks!" [@cnromaine tweet](https://twitter.com/cnromaine/status/709380386124656641)
 
 > "Thanks to @jorgefioranelli for teaching and @CoStarGroup for hosting a great F# workshop this weekend! Learning a bunch." [@sjkilleen tweet](https://twitter.com/sjkilleen/status/708716443660111873)
-
-> "@DCFSharp with @jorgefioranelli running an awesome #fsharp workshop!" [@trikace tweet](https://twitter.com/TRikace/status/708679222441725953)
 
 > "Thanks @jorgefioranelli for awesome #fsharp workshop!" [@grishace tweet](https://twitter.com/grishace/status/696073536595718144)
 
