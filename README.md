@@ -55,6 +55,10 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ## Workshop Feedback ##
 
+> "Thanks to @jorgefioranelli for teaching and @Valtech for hosting an awesome F# workshop last Saturday in London, learned a lot." [@pedromsantos tweet](https://twitter.com/pedromsantos/status/716903753442586624)
+
+> "Thanks @jorgefioranelli and @Valtech for today's amazing F# workshop. See you soon!" [@vgaltes tweet](https://twitter.com/vgaltes/status/716339992860164096)
+
 > "@DCFSharp with @jorgefioranelli running an awesome #fsharp workshop!" [@trikace tweet](https://twitter.com/TRikace/status/708679222441725953)
 
 > "DC F# Meetup - @jorgefioranelli 's F# Workshop - excellent intro to F#.  Thanks!" [@cnromaine tweet](https://twitter.com/cnromaine/status/709380386124656641)
