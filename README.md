@@ -55,6 +55,8 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ## Workshop Feedback ##
 
+> "Thanks @jorgefioranelli for the awesome workshop at the NYC #fsharp lab hours. And thanks @JetTechnology for sponsoring." [@pblasucci tweet](https://twitter.com/pblasucci/status/734139405301075969)
+
 > "Thanks to @jorgefioranelli for teaching and @Valtech for hosting an awesome F# workshop last Saturday in London, learned a lot." [@pedromsantos tweet](https://twitter.com/pedromsantos/status/716903753442586624)
 
 > "Thanks @jorgefioranelli and @Valtech for today's amazing F# workshop. See you soon!" [@vgaltes tweet](https://twitter.com/vgaltes/status/716339992860164096)
