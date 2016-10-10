@@ -52,14 +52,10 @@
   <ItemGroup>
     <None Include="Demo.fsx" />
     <Compile Include="Types.fs" />
-    <Compile Include="Data.fs" />
     <Compile Include="Functions.fs" />
     <Compile Include="Services.fs" />
     <Compile Include="Program.fs" />
     <None Include="Data.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Data.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="app.config" />

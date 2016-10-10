@@ -18,24 +18,14 @@ let customer = {
     Notifications = ReceiveNotifications(receiveDeals = true, 
                                          receiveAlerts = true) }
 
+
 //[<Fact>]
-//let ``4-1 Get spendings by month for customer 1``() =
-//    let spendings = getSpendingsByMonth customer
-//    test <@ spendings = List.init 12 (fun x -> 60M) @>
+//let ``4-1 Get purchases average``() =
+//    let purchases = getPurchases customer
+//    test <@ purchases = (customer, 60M) @>
 //
 //[<Fact>]
-//let ``4-2 Get spendings using getSpendingsByMonth``() =
-//    let spendings = getSpendings customer
-//    test <@ spendings = (customer, 60M) @>
-//
-//[<Fact>]
-//let ``4-3 Get customers``() =
-//    let service = CustomerService()
-//    let customers = service.GetCustomers ()
-//    test <@ Seq.length customers = 4 @>
-//
-//[<Fact>]
-//let ``4-4 Update customer``() =
+//let ``4-2 Upgrade customer``() =
 //    let service = CustomerService()
 //    let upgradedCustomer = service.UpgradeCustomer 2
 //    test <@ upgradedCustomer.IsVip @>
