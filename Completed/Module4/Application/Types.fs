@@ -8,7 +8,7 @@ type PersonalDetails = {
     DateOfBirth: DateTime 
 }
 
-[<Measure>] type AUD
+[<Measure>] type EUR
 [<Measure>] type USD
 
 type Notifications =

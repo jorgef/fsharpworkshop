@@ -53,7 +53,7 @@ let optionAddOne'' x =
 let divide dividend divisor =
     let quotient = dividend / divisor
     let remainder = dividend % divisor
-    (quotient, remainder) 
+    (quotient, remainder)
 
 type DivisionResult =
 | DivisionSuccess of quotient: int * remainder: int
@@ -62,7 +62,7 @@ type DivisionResult =
 let divide' dividend divisor =
     match divisor with
     |0 -> DivisionError(message = "Divide by zero")
-    |_ -> DivisionSuccess(quotient = dividend / divisor, 
+    |_ -> DivisionSuccess(quotient = dividend / divisor,
                           remainder = dividend % divisor)
 
 [<Measure>] type m; [<Measure>] type km; [<Measure>] type h
@@ -90,14 +90,14 @@ myInstance.MyMethod 2
 type IMyInterface =
     abstract member MyMethod: int -> int
 
-let myInstance' = 
-    { new IMyInterface with 
+let myInstance' =
+    { new IMyInterface with
        member this.MyMethod methodParam =
               methodParam + 1 }
 
 myInstance'.MyMethod 2
 
-#r @"..\..\..\packages\FSharp.Data\lib\net40\FSharp.Data.dll"
+#r @"..\..\packages\FSharp.Data\lib\net40\FSharp.Data.dll"
 open FSharp.Data
 
 type Customer = CsvProvider<"Data.csv">

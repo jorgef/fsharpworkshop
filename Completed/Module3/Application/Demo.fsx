@@ -69,5 +69,5 @@ let divide' dividend divisor =
 let distanceInMts = 11580.0<m>
 let distanceInKms = 87.34<km>
 //let totalDistance = distanceInMts + distanceInKms // Error
-let totalDistance' = distanceInMts / 1000.0<m> * 1.0<km> + distanceInKms
+let totalDistance' = (distanceInMts / 1000.0<m> * 1.0<km>) + distanceInKms
 let speed = totalDistance' / 2.4<h>

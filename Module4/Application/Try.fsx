@@ -1,15 +1,11 @@
-﻿#r @"..\..\packages\FSharp.Data\lib\net40\FSharp.Data.dll"
-
-#load "Types.fs"
-#load "Data.fs"
+﻿#load "Types.fs"
 #load "Functions.fs"
-#load "Services.fs"
 
 open System
 open Types
 open Functions
 
-let customer1 = { 
+let customer = { 
    Id = 1 
    IsVip = false 
    Credit = 0M<USD>
@@ -21,28 +17,14 @@ let customer1 = {
    Notifications = ReceiveNotifications(receiveDeals = true, receiveAlerts = true) 
 }
 
-let customer2 = {
-   Id = 2 
-   IsVip = false 
-   Credit = 10M<USD>
-   PersonalDetails = None
-   Notifications = NoNotifications 
-}
+let vipCustomer = tryPromoteToVip (customer, 101M) 
 
-let vipCustomer1 = tryPromoteToVip (customer1, 101M) 
-let nonVipCustomer2 = tryPromoteToVip (customer2, 99M) 
+let purchases = getPurchases customer
 
-let customer1Purchases = getPurchases customer1
-let customer2Purchases = getPurchases customer2
+let customerWithMoreCredit = customer |> increaseCredit (fun c -> c.IsVip)
 
-let customer1WithMoreCredit = customer1 |> increaseCredit (fun c -> c.IsVip)
-let customer2WithMoreCredit = customer2 |> increaseCredit (fun c -> c.IsVip)
+let upgradedCustomer = upgradeCustomer customer
 
-let upgradedCustomer1 = upgradeCustomer customer1
-let upgradedCustoemr2 = upgradeCustomer customer2
+let isAdultCustomer = isAdult customer
 
-let isAdultCustomer1 = isAdult customer1
-let isAdultCustomer2 = isAdult customer2
-
-let alertCustomer1 = getAlert customer1
-let alertCustomer2 = getAlert customer2
+let alertCustomer = getAlert customer

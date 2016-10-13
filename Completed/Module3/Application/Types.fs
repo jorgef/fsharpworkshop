@@ -2,23 +2,8 @@
 
 open System
 
-type PersonalDetails = {
-    FirstName: string
-    LastName: string
-    DateOfBirth: DateTime 
-}
-
-[<Measure>] type AUD
-[<Measure>] type USD
-
-type Notifications =
-    | NoNotifications
-    | ReceiveNotifications of receiveDeals: bool * receiveAlerts: bool
-
-type Customer = {
+type Customer = { 
     Id: int
     IsVip: bool
-    Credit: decimal<USD>
-    PersonalDetails: PersonalDetails option
-    Notifications: Notifications 
+    Credit: decimal 
 }

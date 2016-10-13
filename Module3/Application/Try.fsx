@@ -5,7 +5,7 @@ open System
 open Types
 open Functions
 
-let customer1 = { 
+let customer = { 
     Id = 1 
     IsVip = false 
     Credit = 0M<USD>
@@ -17,22 +17,10 @@ let customer1 = {
     Notifications = ReceiveNotifications(receiveDeals = true, receiveAlerts = true) 
 }
 
-let customer2 = {
-    Id = 2 
-    IsVip = false 
-    Credit = 10M<USD>
-    PersonalDetails = None
-    Notifications = NoNotifications 
-}
+let vipCustomer = tryPromoteToVip (customer, 101M) 
 
-let vipCustomer1 = tryPromoteToVip (customer1, 101M) 
-let nonVipCustomer2 = tryPromoteToVip (customer2, 99M) 
+let purchases = getPurchases customer
 
-let customer1Purchases = getPurchases customer1
-let customer2Purchases = getPurchases customer2
+let customerWithMoreCredit = customer |> increaseCredit vipCondition
 
-let customer1WithMoreCredit = customer1 |> increaseCredit vipCondition
-let customer2WithMoreCredit = customer2 |> increaseCredit vipCondition
-
-let upgradedCustomer1 = upgradeCustomer customer1
-let upgradedCustoemr2 = upgradeCustomer customer2
+let upgradedCustomer = upgradeCustomer customer
