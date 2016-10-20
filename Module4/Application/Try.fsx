@@ -1,4 +1,7 @@
-﻿#load "Types.fs"
+﻿#r @"..\..\packages\FSharp.Data\lib\net40\FSharp.Data.dll"
+
+#load "Types.fs"
+#load "Data.fs"
 #load "Functions.fs"
 
 open System
