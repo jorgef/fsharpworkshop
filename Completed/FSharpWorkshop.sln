@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{A2B4EE0C-C955-4CA4-B006-B8B54785C383}"
-	ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module1", "Module1", "{0ECC2A4B-D33B-4B6B-AB75-9F2A11E20283}"
 	ProjectSection(SolutionItems) = preProject
 		Module1\runtests.bat = Module1\runtests.bat
@@ -54,6 +49,11 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Module4\Tests\Tests.fsproj", "{3ED68538-90DB-4DCF-9EF6-8C96132C7EB0}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Module3\Tests\Tests.fsproj", "{07063786-F560-4A92-9727-00051B202964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packet", "packet", "{FDC3C315-25F4-4899-9835-E4B8A28A0975}"
+	ProjectSection(SolutionItems) = preProject
+		..\paket.dependencies = ..\paket.dependencies
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
