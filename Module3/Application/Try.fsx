@@ -21,6 +21,6 @@ let vipCustomer = tryPromoteToVip (customer, 101M)
 
 let purchases = getPurchases customer
 
-let customerWithMoreCredit = customer |> increaseCredit vipCondition
+let customerWithMoreCredit = customer |> increaseCredit (fun c -> c.IsVip)
 
 let upgradedCustomer = upgradeCustomer customer

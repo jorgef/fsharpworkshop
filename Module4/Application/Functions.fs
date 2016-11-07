@@ -27,15 +27,15 @@ let isAdult customer =
 let getAlert customer =
     match customer.Notifications  with
     | ReceiveNotifications(receiveDeals = _; receiveAlerts = true) ->
-        Some (sprintf "Alert for customer: %i" customer.Id)
-    | _ -> None
+        sprintf "Alert for customer %i" customer.Id
+    | _ -> ""
 
 let getCustomer id =
     let customers = [
-        { Id = 1; IsVip = false; Credit = 0m<USD>; PersonalDetails = None; Notifications = NoNotifications }
-        { Id = 2; IsVip = false; Credit = 10m<USD>; PersonalDetails = None; Notifications = NoNotifications }
-        { Id = 3; IsVip = false; Credit = 30m<USD>; PersonalDetails = None; Notifications = NoNotifications }
-        { Id = 4; IsVip = true;  Credit = 50m<USD>; PersonalDetails = None; Notifications = NoNotifications }
+        { Id = 1; IsVip = false; Credit = 0m<USD>; PersonalDetails = Some { FirstName = "John"; LastName = "Doe"; DateOfBirth = DateTime(1980, 1, 1) }; Notifications = NoNotifications }
+        { Id = 2; IsVip = false; Credit = 10m<USD>; PersonalDetails = None; Notifications = ReceiveNotifications(true, true) }
+        { Id = 3; IsVip = false; Credit = 30m<USD>; PersonalDetails = Some { FirstName = "Jane"; LastName = "Jones"; DateOfBirth = DateTime(2010, 2, 2) }; Notifications = ReceiveNotifications(true, false) }
+        { Id = 4; IsVip = true;  Credit = 50m<USD>; PersonalDetails = Some { FirstName = "Joe"; LastName = "Smith"; DateOfBirth = DateTime(1986, 3, 3) }; Notifications = ReceiveNotifications(false, true) }
     ]
     customers
     |> List.find (fun c -> c.Id = id)

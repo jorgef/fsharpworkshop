@@ -27,5 +27,5 @@ let isAdult customer =
 let getAlert customer =
     match customer.Notifications with
     | ReceiveNotifications(receiveDeals = _; receiveAlerts = true) ->
-        Some (sprintf "Alert for customer: %i" customer.Id)
-    | _ -> None
+        sprintf "Alert for customer %i" customer.Id
+    | _ -> ""

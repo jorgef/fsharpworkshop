@@ -44,9 +44,9 @@ let ``3-5 Customer without personal details``() =
 [<Fact>]
 let ``3-6 Get alert when nofications are enabled``() =
     let alert = customer |> getAlert
-    test <@ alert = Some "Alert for customer: 1" @>
+    test <@ alert = "Alert for customer 1" @>
 
 [<Fact>]
 let ``3-7 Do not get alert when nofications are disabled``() =
     let alert = { customer with Notifications = NoNotifications } |> getAlert
-    test <@ alert = None @>
+    test <@ alert = "" @>
