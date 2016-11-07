@@ -46,7 +46,6 @@
     <None Include="Demo.fsx" />
     <Compile Include="Types.fs" />
     <Compile Include="Functions.fs" />
-    <Compile Include="Data.fs" />
     <None Include="Try.fsx" />
   </ItemGroup>
   <PropertyGroup>

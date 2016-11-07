@@ -19,14 +19,14 @@ let increaseCreditUsingVip = increaseCredit (fun c -> c.IsVip)
 
 let upgradeCustomer = getPurchases >> tryPromoteToVip >> increaseCreditUsingVip
 
-let isAdult customer = 
+let isAdult customer =
     match customer.PersonalDetails with
     | None -> false
     | Some d -> d.DateOfBirth.AddYears 18 <= DateTime.Now.Date
 
 let getAlert customer =
     match customer.Notifications  with
-    | ReceiveNotifications(receiveDeals = _; receiveAlerts = true) -> 
+    | ReceiveNotifications(receiveDeals = _; receiveAlerts = true) ->
         Some (sprintf "Alert for customer: %i" customer.Id)
     | _ -> None
 

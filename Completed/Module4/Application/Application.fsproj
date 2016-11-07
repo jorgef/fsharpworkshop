@@ -52,7 +52,6 @@
   <ItemGroup>
     <None Include="Demo.fsx" />
     <Compile Include="Types.fs" />
-    <Compile Include="Data.fs" />
     <Compile Include="Functions.fs" />
     <Compile Include="Services.fs" />
     <Content Include="app.config" />
