@@ -2,21 +2,28 @@
 
 open System
 open Services
-open Types
-
-let printCustomer c = printfn "Id: %A, IsVip: %b, Credit: %A" c.Id c.IsVip c.Credit
+open Functions
 
 [<EntryPoint>]
 let rec main args =
     let service = CustomerService()
-    service.GetCustomers () 
-    |> Seq.iter printCustomer
-    printf "Id to upgrade: "
-    let id = int (Console.ReadLine ())
+    printf "Id to upgrade [1-4]: "
+    let valid, id = Int32.TryParse <| Console.ReadLine ()
     printfn ""
-    let customer = service.UpgradeCustomer id
-    customer |> printCustomer
+    if not valid then
+        printfn "Invalid customer Id"
+    else
+        printfn "Customer to upgrade:"
+        let customerBefore = getCustomer id
+        customerBefore |> service.GetCustomerInfo |> printfn "%s"
+        printfn ""
+        printfn "Upgrading customer..."
+        let customerAfter = service.UpgradeCustomer id
+        printfn ""
+        printfn "Customer upgraded:"
+        customerAfter |> service.GetCustomerInfo |> printfn "%s"
     printfn ""
-    printfn "Press enter to try again"
-    Console.ReadLine () |> ignore
-    main args
+    printfn "Press any key to try again or 'q' to quit"
+    let input = Console.ReadKey()
+    printfn ""
+    if input.Key = ConsoleKey.Q then 0 else main args

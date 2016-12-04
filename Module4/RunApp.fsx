@@ -13,7 +13,9 @@ Target "BuildApp" (fun _ ->
 Target "RunApp" (fun _ ->
     let result =
         ExecProcess (fun info -> 
-            info.FileName <- appDir + "Application.exe"
+            let fileName = "Application.exe"
+            let appPath = if EnvironmentHelper.isMono then fileName else appDir + fileName 
+            info.FileName <- appPath
             info.WorkingDirectory <- appDir
         ) System.TimeSpan.MaxValue
 

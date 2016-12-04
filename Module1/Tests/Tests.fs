@@ -23,13 +23,13 @@ open Functions
 //    test <@ promotedCustomer.IsVip = false @>
 //
 //[<Fact>]
-//let ``1-4 Get spendings for odd customers``() =
+//let ``1-4 Get purchases for odd customers``() =
 //    let customer = { Id = 1; IsVip = false; Credit = 0M }
-//    let _, spendings = getSpendings customer
-//    test <@ spendings = 80M @>
+//    let _, purchases = getPurchases customer
+//    test <@ purchases = 80M @>
 //
 //[<Fact>]
-//let ``1-5 Get spendings for even customers``() =
+//let ``1-5 Get purchases for even customers``() =
 //    let customer = { Id = 2; IsVip = false; Credit = 0M }
-//    let _, spendings = getSpendings customer
-//    test <@ spendings = 120M @>
+//    let _, purchases = getPurchases customer
+//    test <@ purchases = 120M @>

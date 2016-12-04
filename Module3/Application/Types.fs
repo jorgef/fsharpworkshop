@@ -2,8 +2,8 @@
 
 open System
 
-type Customer = { 
+type Customer = {
     Id: int
     IsVip: bool
-    Credit: decimal 
+    Credit: decimal
 }

@@ -6,15 +6,17 @@ open Swensen.Unquote
 open Types
 open Functions
 
-let customer = 
-        { Id = 1 
-          IsVip = false 
-          Credit = 0M<USD>
-          PersonalDetails = Some { FirstName = "John"; 
-                                   LastName = "Doe"; 
-                                   DateOfBirth = DateTime(1970, 11, 23) }
-          Notifications = ReceiveNotifications(receiveDeals = true, 
-                                               receiveAlerts = true) }
+let customer = {
+    Id = 1
+    IsVip = false
+    Credit = 0M<USD>
+    PersonalDetails = Some {
+        FirstName = "John"
+        LastName = "Doe"
+        DateOfBirth = DateTime(1970, 11, 23) }
+    Notifications = ReceiveNotifications(receiveDeals = true,
+                                         receiveAlerts = true)
+}
 
 [<Fact>]
 let ``3-1 Create customer``() =
@@ -42,9 +44,9 @@ let ``3-5 Customer without personal details``() =
 [<Fact>]
 let ``3-6 Get alert when nofications are enabled``() =
     let alert = customer |> getAlert
-    test <@ alert = Some "Alert for customer: 1" @>
+    test <@ alert = "Alert for customer 1" @>
 
 [<Fact>]
 let ``3-7 Do not get alert when nofications are disabled``() =
     let alert = { customer with Notifications = NoNotifications } |> getAlert
-    test <@ alert = None @>
+    test <@ alert = "" @>
