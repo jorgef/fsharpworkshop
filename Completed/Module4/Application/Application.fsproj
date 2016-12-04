@@ -50,7 +50,6 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <None Include="Demo.fsx" />
     <Compile Include="Types.fs" />
     <Compile Include="Functions.fs" />
     <Compile Include="Services.fs" />

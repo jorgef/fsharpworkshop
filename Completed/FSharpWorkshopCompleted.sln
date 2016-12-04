@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module1", "Module1", "{0ECC2A4B-D33B-4B6B-AB75-9F2A11E20283}"
 	ProjectSection(SolutionItems) = preProject
+		Module1\Demo.fsx = Module1\Demo.fsx
 		Module1\runtests.bat = Module1\runtests.bat
 		Module1\RunTests.fsx = Module1\RunTests.fsx
 		Module1\runtests.sh = Module1\runtests.sh
@@ -16,6 +17,7 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Module1\Tests\Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module2", "Module2", "{88521784-CB87-49D5-B933-1C12A0086E37}"
 	ProjectSection(SolutionItems) = preProject
+		Module2\Demo.fsx = Module2\Demo.fsx
 		Module2\runtests.bat = Module2\runtests.bat
 		Module2\RunTests.fsx = Module2\RunTests.fsx
 		Module2\runtests.sh = Module2\runtests.sh
@@ -27,6 +29,7 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Module2\Tests\Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module3", "Module3", "{99D8B7F5-E8D2-4549-8298-62B02A2759D4}"
 	ProjectSection(SolutionItems) = preProject
+		Module3\Demo.fsx = Module3\Demo.fsx
 		Module3\runtests.bat = Module3\runtests.bat
 		Module3\RunTests.fsx = Module3\RunTests.fsx
 		Module3\runtests.sh = Module3\runtests.sh
@@ -36,6 +39,7 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application", "Module3\Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module4", "Module4", "{DBB2E132-7D57-42AB-8A8B-0BA60FBDE1A4}"
 	ProjectSection(SolutionItems) = preProject
+		Module4\Demo.fsx = Module4\Demo.fsx
 		Module4\runapp.bat = Module4\runapp.bat
 		Module4\RunApp.fsx = Module4\RunApp.fsx
 		Module4\runapp.sh = Module4\runapp.sh
