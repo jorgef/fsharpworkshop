@@ -18,9 +18,10 @@ let customer = {
    Notifications = ReceiveNotifications(receiveDeals = true, receiveAlerts = true)
 }
 
-let vipCustomer = tryPromoteToVip (customer, 101M)
+let purchases = (customer, 101M)
+let vipCustomer = tryPromoteToVip purchases
 
-let purchases = getPurchases customer
+let calculatedPurchases = getPurchases customer
 
 let customerWithMoreCredit = customer |> increaseCredit (fun c -> c.IsVip)
 

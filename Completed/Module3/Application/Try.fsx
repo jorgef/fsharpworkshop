@@ -5,23 +5,27 @@ open System
 open Types
 open Functions
 
-let customer = { 
-    Id = 1 
-    IsVip = false 
+let customer = {
+    Id = 1
+    IsVip = false
     Credit = 0M<USD>
-    PersonalDetails = Some { 
+    PersonalDetails = Some {
         FirstName = "John"
         LastName = "Doe"
-        DateOfBirth = DateTime(1970, 11, 23) 
+        DateOfBirth = DateTime(1970, 11, 23)
     }
-    Notifications = ReceiveNotifications(receiveDeals = true, receiveAlerts = true) 
+    Notifications = ReceiveNotifications(receiveDeals = true, receiveAlerts = true)
 }
 
-let vipCustomer = tryPromoteToVip (customer, 101M) 
+let purchases = (customer, 101M)
+let vipCustomer = tryPromoteToVip purchases
 
-let purchases = getPurchases customer
-let customer2Purchases = getPurchases customer2
+let calculatedPurchases = getPurchases customer
 
-let customerWithMoreCredit = customer |> increaseCredit vipCondition
+let customerWithMoreCredit = customer |> increaseCredit (fun c -> c.IsVip)
 
 let upgradedCustomer = upgradeCustomer customer
+
+let isAdultCustomer = isAdult customer
+
+let alertCustomer = getAlert customer

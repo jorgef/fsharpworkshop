@@ -2,8 +2,9 @@
 
 open Types
 
-let tryPromoteToVip (customer, purchases) =
-    if purchases > 100M then { customer with IsVip = true }
+let tryPromoteToVip purchases =
+    let customer, amount = purchases
+    if amount > 100M then { customer with IsVip = true }
     else customer
 
 let getPurchases customer =

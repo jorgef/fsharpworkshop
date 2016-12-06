@@ -4,8 +4,9 @@ open Types
 open System
 open FSharp.Data
 
-let tryPromoteToVip (customer, purchases) =
-    if purchases > 100M then { customer with IsVip = true }
+let tryPromoteToVip purchases =
+    let customer, amount = purchases
+    if amount > 100M then { customer with IsVip = true }
     else customer
 
 type Json = JsonProvider<"Data.json">
