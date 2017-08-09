@@ -24,6 +24,6 @@ let rec main args =
 //        customerAfter |> service.GetCustomerInfo |> printfn "%s"
     printfn ""
     printfn "Press any key to try again or 'q' to quit"
-    let input = Console.ReadKey()
+    let input = Console.ReadKey ()
     printfn ""
     if input.Key = ConsoleKey.Q then 0 else main args
