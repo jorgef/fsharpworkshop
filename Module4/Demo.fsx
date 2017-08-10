@@ -59,7 +59,14 @@ let result''' = divide' 4 0
 let distanceInMts = 11580.0<m>
 let distanceInKms = 87.34<km>
 //let totalDistance = distanceInMts + distanceInKms // Error
-let convertToKms (mts: float<m>) = mts / 1.0<m> / 1000.0 * 1.0<km>
+
+let convertToKms (mts: float<m>) = 
+    let m = mts / 1.0<m> // remove unit of measure
+    let k = m / 1000.0   // convert
+    k * 1.0<km>          // add new unit of measure
+
+let convertToKms' (mts: float<m>) = mts / 1000.0<m> * 1.0<km>
+
 let convertedToKms = convertToKms distanceInMts
 let totalDistance' = convertedToKms + distanceInKms
 let speed = totalDistance' / 2.4<h>
@@ -75,7 +82,7 @@ type MyClass(myField: int) =
     member this.MyProperty = myField
     member this.MyMethod methodParam = myField + methodParam
 
-let myInstance = MyClass 1
+let myInstance = MyClass(1)
 myInstance.MyProperty
 myInstance.MyMethod 2
 
