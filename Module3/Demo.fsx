@@ -60,7 +60,7 @@ let distanceInMts = 11580.0<m>
 let distanceInKms = 87.34<km>
 //let totalDistance = distanceInMts + distanceInKms // Error
 
-let convertToKms (mts: float<m>) = 
+let convertToKms (mts: float<m>) =
     let m = mts / 1.0<m> // remove unit of measure
     let k = m / 1000.0   // convert
     k * 1.0<km>          // add new unit of measure
