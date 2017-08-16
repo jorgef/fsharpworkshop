@@ -1,0 +1,23 @@
+Module 1:
+- Type Techniques (Unit Type, Alias Types, Functions as Types, Single Case Discriminated Unions, Type Extensions, Record Methods, Recursive Types)
+- Shadowing (and partial application)
+- Active Patterns (and partial active patterns)
+- Error Handling
+
+Module 2:
+- Map
+- Bind
+- Fold
+- Filter
+
+Module 3
+- Recursion
+- Advanced Operators
+- New Operators
+- Inline Functions
+
+Module 4
+- Pure Functions
+- Async
+- Computation Expressions
+- Code Quotations
