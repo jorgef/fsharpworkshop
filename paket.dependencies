@@ -7,3 +7,4 @@ nuget Unquote
 nuget xunit
 nuget xunit.runner.console
 nuget xunit.runner.visualstudio version_in_path: true
+nuget FSharp.Core
