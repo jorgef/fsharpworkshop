@@ -1,4 +1,4 @@
-FRAMEWORK: >= NET45
+RESTRICTION: >= net45
 NUGET
   remote: http://api.nuget.org/v3/index.json
     FAKE (4.63)
@@ -7,14 +7,24 @@ NUGET
     xunit (2.2)
       xunit.assert (2.2)
       xunit.core (2.2)
-    xunit.abstractions (2.0.1) - framework: >= net452
+    xunit.abstractions (2.0.1)
     xunit.assert (2.2)
+      NETStandard.Library (>= 1.6) - restriction: && (>= net45) (< net452)
     xunit.core (2.2)
       xunit.extensibility.core (2.2)
       xunit.extensibility.execution (2.2)
     xunit.extensibility.core (2.2)
-      xunit.abstractions (>= 2.0.1) - framework: >= net452
+      NETStandard.Library (>= 1.6) - restriction: && (>= net45) (< net452)
+      xunit.abstractions (>= 2.0.1)
     xunit.extensibility.execution (2.2)
-      xunit.extensibility.core (2.2) - framework: >= net452
+      NETStandard.Library (>= 1.6) - restriction: && (>= net45) (< net452)
+      xunit.extensibility.core (2.2)
     xunit.runner.console (2.2)
     xunit.runner.visualstudio (2.2.0) - version_in_path: true
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (4.2.3)
+    Microsoft.NETCore.Platforms (2.0.1) - restriction: || (&& (>= monoandroid) (>= net45) (< netstandard1.0)) (&& (>= monotouch) (>= net45)) (&& (>= net45) (>= netcoreapp2.0)) (&& (>= net45) (< netstandard1.0) (>= portable-net451+win81+wpa81)) (&& (>= net45) (< netstandard1.3) (>= wpa81)) (&& (>= net45) (< portable-net45+win8+wpa81)) (&& (>= net45) (< portable-net451+win81+wpa81)) (&& (>= net45) (>= uap10.0)) (&& (>= net45) (>= xamarinios)) (&& (>= net45) (>= xamarinmac)) (&& (>= net45) (>= xamarintvos)) (&& (>= net45) (>= xamarinwatchos)) (&& (>= net451) (< net452) (< netstandard1.3)) (&& (< net452) (>= net46) (< netstandard1.4)) (&& (< net452) (>= net461))
+    NETStandard.Library (2.0.1) - restriction: && (>= net45) (< net452)
+      Microsoft.NETCore.Platforms (>= 1.1)
+      System.Runtime.InteropServices.RuntimeInformation (>= 4.3) - restriction: || (&& (>= net45) (< netstandard1.0) (>= portable-net451+win81+wpa81)) (&& (>= net45) (< netstandard1.3) (>= wpa81)) (&& (>= net45) (< portable-net451+win81+wpa81)) (&& (>= net45) (>= uap10.0)) (&& (>= net451) (< netstandard1.3)) (&& (>= net46) (< netstandard1.4))
+    System.Runtime.InteropServices.RuntimeInformation (4.3) - restriction: || (&& (>= net45) (< netstandard1.0) (>= portable-net451+win81+wpa81)) (&& (>= net45) (< netstandard1.3) (>= wpa81)) (&& (>= net45) (< portable-net451+win81+wpa81)) (&& (>= net45) (>= uap10.0)) (&& (>= net451) (< net452) (< netstandard1.3)) (&& (< net452) (>= net46) (< netstandard1.4))
