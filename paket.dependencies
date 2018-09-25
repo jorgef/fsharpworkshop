@@ -1,9 +1,0 @@
-source https://api.nuget.org/v3/index.json
-framework >= net45
-
-nuget FAKE
-nuget FSharp.Data
-nuget Unquote
-nuget xunit
-nuget xunit.runner.console
-nuget xunit.runner.visualstudio version_in_path: true
