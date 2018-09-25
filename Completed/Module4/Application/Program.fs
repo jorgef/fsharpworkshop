@@ -8,7 +8,7 @@ open Functions
 let rec main args =
     let service = CustomerService()
     printf "Id to upgrade [1-4]: "
-    let valid, id = Int32.TryParse <| Console.ReadLine ()
+    let valid, id = Console.ReadLine () |> Int32.TryParse 
     printfn ""
     if not valid then
         printfn "Invalid customer Id"
