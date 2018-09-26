@@ -38,22 +38,9 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ## Pre-requisites
 
-### All OS
-
-- [.NET Core Sdk 2.1.402](https://www.microsoft.com/net/download)
-
-#### Windows
-- [Visual Studio 2017 Community](http://fsharp.org/use/windows/#option-1-install-the-visual-f-tools-from-microsoft) or
-- [Visual Studio Code + F# Compiler + Ionide package](http://fsharp.org/use/windows/#option-2-install-visual-studio-code) or
-- [Jetbrains Rider](https://www.jetbrains.com/rider/)
-
-#### Mac
-- [Visual Studio for Mac + Mono](https://www.visualstudio.com/vs/visual-studio-mac/) or
-- [Xamarin Studio 6.x + Mono](http://fsharp.org/use/mac/#option-1-install-f-with-xamarin-studio) or
-- [Visual Studio Code + Mono + Ionide package](http://fsharp.org/use/mac/#option-2-install-visual-studio-code) or
-
-#### Linux
-- [Visual Studio Code + Mono + Ionide package](http://fsharp.org/use/linux/#option-2-install-visual-studio-code) or
+- [.NET Core SDK](https://www.microsoft.com/net/download)
+- [Visual Studio Code] (https://code.visualstudio.com/)
+- [Ionide Package] (http://ionide.io/)
 
 
 ## Workshop Feedback ##
@@ -104,4 +91,4 @@ Book: [Real-World Functional Programming](http://www.manning.com/petricek/) by T
 ## License ##
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-Copyright 2015 Jorge Fioranelli
+Copyright 2018 Jorge Fioranelli
