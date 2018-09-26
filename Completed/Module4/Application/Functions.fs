@@ -9,7 +9,8 @@ let tryPromoteToVip purchases =
     if amount > 100M then { customer with IsVip = true }
     else customer
 
-type Json = JsonProvider<"Data.json">
+let [<Literal>] JsonExample = __SOURCE_DIRECTORY__ + "/Data.json"
+type Json = JsonProvider<JsonExample>
 
 let getPurchases customer =
     let purchases =

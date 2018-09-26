@@ -38,20 +38,22 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 ## Pre-requisites
 
+### All OS
+
+- [.NET Core Sdk 2.1.402](https://www.microsoft.com/net/download)
+
 #### Windows
-- [Visual Studio 2015 Community](http://fsharp.org/use/windows/#option-1-install-the-visual-f-tools-from-microsoft) or
+- [Visual Studio 2017 Community](http://fsharp.org/use/windows/#option-1-install-the-visual-f-tools-from-microsoft) or
 - [Visual Studio Code + F# Compiler + Ionide package](http://fsharp.org/use/windows/#option-2-install-visual-studio-code) or
-- [Atom](https://atom.io/) + [F# Compiler](http://fsharp.org/use/windows/#option-3-install-the-free-f-compiler-and-tools-alone) + [Ionide package](http://ionide.io/)
+- [Jetbrains Rider](https://www.jetbrains.com/rider/)
 
 #### Mac
 - [Visual Studio for Mac + Mono](https://www.visualstudio.com/vs/visual-studio-mac/) or
 - [Xamarin Studio 6.x + Mono](http://fsharp.org/use/mac/#option-1-install-f-with-xamarin-studio) or
 - [Visual Studio Code + Mono + Ionide package](http://fsharp.org/use/mac/#option-2-install-visual-studio-code) or
-- [Atom](https://atom.io/) + [Mono](http://fsharp.org/use/mac/#option-3-install-f-alone) + [Ionide package](http://ionide.io/)
 
 #### Linux
 - [Visual Studio Code + Mono + Ionide package](http://fsharp.org/use/linux/#option-2-install-visual-studio-code) or
-- [Atom](https://atom.io/) + [Mono](http://fsharp.org/use/linux/#option-1-use-the-f-debianubuntu-packages) + [Ionide package](http://ionide.io/)
 
 
 ## Workshop Feedback ##
