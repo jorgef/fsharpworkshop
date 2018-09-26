@@ -5,8 +5,6 @@ open Fake.Testing
 let appDir   = "./appOutput/"
 let appReferences = !! "/Application/*.fsproj"
 
-EnvironmentHelper.setBuildParam "VisualStudioVersion" "14.0"
-
 Target "BuildApp" (fun _ ->
     MSBuildDebug appDir "Build" appReferences
         |> Log "BuildApp-Output: "
