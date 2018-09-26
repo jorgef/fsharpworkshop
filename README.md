@@ -39,8 +39,8 @@ The course is split into 4 modules, each of them contains a presentation (theory
 ## Pre-requisites
 
 - [.NET Core SDK](https://www.microsoft.com/net/download)
-- [Visual Studio Code] (https://code.visualstudio.com/)
-- [Ionide Package] (http://ionide.io/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Ionide Package](http://ionide.io/)
 
 
 ## Workshop Feedback ##
