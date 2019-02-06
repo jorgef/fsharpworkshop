@@ -1,7 +1,7 @@
-F# Workshop
-==============
+# F# Workshop
 
-##Introduction##
+## Introduction
+
 **Do you want to learn F# and Functional Programming?** Well, you better start coding!
 
 Learning a new programming language is not easy, on top of reading a lot you need to practice even more.
@@ -13,28 +13,31 @@ This workshop is designed to teach you some of the basics of F# and Functional P
 The course is split into 4 modules, each of them contains a presentation (theory) and one exercise (practice).
 
 ### Module 1
+
 - Bindings
 - Functions
 - Tuples
 - Records
 
 ### Module 2
+
 - High order functions
 - Pipelining
 - Partial application
 - Composition
 
 ### Module 3
+
 - Options
 - Pattern matching
 - Discriminated unions
 - Units of measure
 
 ### Module 4
+
 - Functional lists
 - Object-oriented programming
 - Type providers
-
 
 ## Pre-requisites
 
@@ -42,8 +45,7 @@ The course is split into 4 modules, each of them contains a presentation (theory
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Ionide Package](http://ionide.io/)
 
-
-## Workshop Feedback ##
+## Workshop Feedback
 
 > "Outstanding weekend #fsharp workshop led by @jorgefioranelli at @Jet's Hoboken HQ. #functionalprogramming #learning" [@JetTechnology tweet](https://twitter.com/JetTechnology/status/931957480258752513)
 
@@ -61,7 +63,7 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 > "@DCFSharp with @jorgefioranelli running an awesome #fsharp workshop!" [@trikace tweet](https://twitter.com/TRikace/status/708679222441725953)
 
-> "DC F# Meetup - @jorgefioranelli 's F# Workshop - excellent intro to F#.  Thanks!" [@cnromaine tweet](https://twitter.com/cnromaine/status/709380386124656641)
+> "DC F# Meetup - @jorgefioranelli 's F# Workshop - excellent intro to F#. Thanks!" [@cnromaine tweet](https://twitter.com/cnromaine/status/709380386124656641)
 
 > "Thanks to @jorgefioranelli for teaching and @CoStarGroup for hosting a great F# workshop this weekend! Learning a bunch." [@sjkilleen tweet](https://twitter.com/sjkilleen/status/708716443660111873)
 
@@ -77,18 +79,18 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 > "Can't praise @jorgefioranelli enough for the amazing outstanding preparation & delivery of his @readify #fsharp workshop tonight" [@meligy tweet](https://twitter.com/Meligy/status/514382840520138753)
 
+## Recommended Learning Material
 
-## Recommended Learning Material ##
-
-Video: [Functional Programming: What? Why? When?](https://vimeo.com/97514630) by Robert C. Martin 
+Video: [Functional Programming: What? Why? When?](https://vimeo.com/97514630) by Robert C. Martin
 
 Video: [5 Reasons to Move from C# to F#](https://www.youtube.com/embed/-0BB3lU_qr4) by Jorge Fioranelli
 
-Practice Online: [Try F#](http://www.tryfsharp.org)
+Practice Online: [.netfiddle](https://dotnetfiddle.net/)
 
 Book: [Real-World Functional Programming](http://www.manning.com/petricek/) by Tomas Petricek
 
-## License ##
+## License
+
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 Copyright 2018 Jorge Fioranelli
