@@ -96,11 +96,13 @@ let myInstance' =
 
 myInstance'.MyMethod 2
 
-#r @"..\packages\FSharp.Data\lib\net40\FSharp.Data.dll"
+//#r @"/Users/[USERNAME]/.nuget/packages/fsharp.data/3.0.0-beta4/lib/netstandard2.0/FSharp.Data.dll" // Mac / Linux
+//#r @"%userprofile%\.nuget\packages\.nuget\packages\fsharp.data\3.0.0-beta4\lib\netstandard2.0\FSharp.Data.dll" // Windows
+
 open FSharp.Data
 
-type Customer = JsonProvider<"Application/Data.json">
-let customers = Customer.Load "Application/Data.json"
+type Customer = JsonProvider<"Data.json">
+let customers = Customer.Load "Data.json"
 
 customers
 |> Seq.iter (fun r -> printfn "%i: %A" r.CustomerId r.PurchasesByMonth)
