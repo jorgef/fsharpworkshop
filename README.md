@@ -44,8 +44,12 @@ The course is split into 4 modules, each of them contains a presentation (theory
 - [.NET Core SDK](https://www.microsoft.com/net/download)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Ionide Package](http://ionide.io/)
+- [Mono (Mac only)](https://www.mono-project.com/download/stable/)
+- [Mono, F# Compiler and F# Interactive (Linux only)](https://fsharp.org/use/linux/)
 
 ## Workshop Feedback
+
+> "Awesome F# workshop by @jorgefioranelli" [@Sahebjade tweet](https://twitter.com/Sahebjade/status/1132234942333636609)
 
 > "Outstanding weekend #fsharp workshop led by @jorgefioranelli at @Jet's Hoboken HQ. #functionalprogramming #learning" [@JetTechnology tweet](https://twitter.com/JetTechnology/status/931957480258752513)
 
