@@ -53,8 +53,6 @@ The course is split into 4 modules, each of them contains a presentation (theory
 
 > "Outstanding weekend #fsharp workshop led by @jorgefioranelli at @Jet's Hoboken HQ. #functionalprogramming #learning" [@JetTechnology tweet](https://twitter.com/JetTechnology/status/931957480258752513)
 
-> "Thanks to @jorgefioranelli and @Jet for a beautiful workshop demonstrating how developer |> F# = (smallerCodeBase, lessErrors, moreFun) 😄" [@_aeshthetic_ tweet](https://twitter.com/_aeshthetic_/status/932130801612935168)
-
 > "Thanks @jorgefioranelli for the wonderful workshop " [@ckumareddy tweet](https://twitter.com/ckumareddy/status/931944429237231623)
 
 > "Great🆒workshop🔛 #code @Jet with @jorgefioranelli in functional #programming @fsharporg all #software #developers & #businessnews #businessdevelopment should ✔out" [@tomsnode tweet](https://twitter.com/tomsnode/status/931983517067640833)
